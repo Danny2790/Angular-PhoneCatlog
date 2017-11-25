@@ -1,6 +1,6 @@
 angular.module("phonecatApp")
     .component("phoneList", {
-        templateUrl : "phone-list.html",
+        templateUrl : "./phone-list/phone-list.html",
         controller : function phoneListController(){
             this.phones = [
                 {
@@ -16,3 +16,4 @@ angular.module("phonecatApp")
     });
 
 
+            
