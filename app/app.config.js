@@ -9,5 +9,5 @@ angular.module('phonecatApp')
                 template : '<phone-detail></phone-detail>'
             }).
             otherwise('/phones');
-    }
+        }
     ]);
