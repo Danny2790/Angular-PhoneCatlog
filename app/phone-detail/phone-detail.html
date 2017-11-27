@@ -18,4 +18,12 @@
         <span>Additional Features</span>
         <dd>{{$ctrl.phone.additionalFeatures}}</dd>
     </li>
+    <li>
+        <span>Connectivity network support</span>
+        <dt>Infrared</dt>
+        <dl>{{$ctrl.phone.connectivity.infrared | checkmark}}</dl>
+        <dt>GPS</dt>
+        <dl>{{$ctrl.phone.connectivity.gps | checkmark}}</dl>
+        
+    </li>
 </ul>
