@@ -3,11 +3,11 @@ angular.module('phonecatApp')
         $locationProvider.hashPrefix('!');
         $routeProvider.
             when('/phones', {
-                template : '<phone-list><phone-list>'
+                template : '<phone-list></phone-list>'
             }).
-            // when('/phone/:phoneId',{
-
-            // }).
+            when('/phones/:phoneId',{
+                template : '<phone-detail></phone-detail>'
+            }).
             otherwise('/phones');
     }
     ]);
